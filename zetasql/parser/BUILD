@@ -14,7 +14,7 @@
 # limitations under the License.
 
 package(
-    default_visibility = ["//zetasql:__subpackages__"],
+    default_visibility = ["//visibility:public"],
 )
 
 load("//bazel:bison.bzl", "genyacc")
